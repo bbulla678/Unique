@@ -89,7 +89,7 @@ $conn->close();
     <h2>ADD BEST VEDIO</h2>
 
     <form action="" method="post" enctype="multipart/form-data">
-        <label for="appImg">App Image:</label>
+        <label for="appImg">AppImage:</label>
         <input type="file" id="appImg" name="appImg" accept="image/*" required>
 
         <label for="appName">App Name:</label>
