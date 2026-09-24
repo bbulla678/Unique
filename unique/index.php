@@ -17,7 +17,6 @@ if ($conn->connect_error) {
 $sql = "SELECT id, appImg, appName, appLink FROM app_info";
 $result = $conn->query($sql);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
